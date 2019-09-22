@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 [//]: # (Video References)
 
 [image6]: ./test_videos_output/solidWhiteRight.jpg "WhiteRightVideo"
-[image7]: ./test_videos_output/solidYellowLeftImage.jpg "YellowLeftVideo"
+
 ---
 
 **Images provided for the Project: Finding Lane Lines**
@@ -86,14 +86,13 @@ The results show a functioning and qualified pipeline for the lanes on static im
 
 ![image5]
 
-### 5. Implementing the procedure for two Traffic Video Files
-***Still work in progess, since the video file displays simply a previous stored static image. However, the Lane Lines are based on the video file intended.***
+### 5. Implementing on Video Files
 
-Status 15.09.2019: The project is long overdue and I wish to proceed further on with the computer vision topic of the syllabus. Hence I intend to:
-* submit the project in order to get an expert opinion on the error.
-* Check in parallel with Udacity Mentor for BMW (Alan Mosca).
+The video files are processed using the moviepy module in python. Since Markdown does not permit inclusion of videos, the link to the output videos are available on the following GitHub Link:
+https://github.com/TimeToBuzzTheTower/NDSDC_FindingLaneLines/tree/master/test_videos_output
 
-![image7]
+***The optional challenge.mp4 video output doesnt seem work. The error message during evaluation can be reviewed in the Jupyter notebook. Issue would be evaluated and corrected at a later date due to past submission due date.***
+
 
 ---
 ## Next steps towards possible improvements and upgrades
@@ -103,7 +102,7 @@ An adaptive method towards determining the fixed parameters for the filtering pr
 * Extracting lanes through colour detection (currently only set for thresholds of yellow and white).
 * Automating filtering of unexpected dirt objects which could come across the camera.
 * HSL parameter adaptive towards light sensitivity through shadows and direct sunlight or street light.
-* Region of interest which is independant of image size and position of camera which is recording the image.
+* Region of interest which is independent of image size and position of camera which is recording the image.
 
 ---
 [GitHub Link]
